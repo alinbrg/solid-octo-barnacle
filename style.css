@@ -1,3 +1,4 @@
+
 *{
 	margin: 0;
 	padding: 0;
@@ -42,4 +43,7 @@ header{
 
 	max-width: 450px;
 	width: calc(100% - 40px);
+}
+body {
+	background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
 }
