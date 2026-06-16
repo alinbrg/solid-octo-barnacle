@@ -1,6 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 a{
 	text-decoration: none;
 }
+ul{
+	list-style: none;
+}
 img{
 	width: 100%;
+}
+a{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+header{
+	padding: 20px;
+	background: darkcyan;
+}
+
+#main{
+	border: 5px solid darkblue;
+	border-top-width: 10px;
+	border-bottom-color: red;
+	border-right-style: dotted;
+	padding: 30px;
+	background: lightblue;
+
+	padding: 30px 10px 40px 10px;
+
+	padding: 30px 10px 40px;
+	padding: 30px 10px;
+
+	margin: 20px auto;
+
+
+	max-width: 450px;
+	width: calc(100% - 40px);
 }
